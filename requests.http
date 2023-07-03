@@ -1,0 +1,17 @@
+###
+GET http://localhost:4444/heroes
+
+### Are slashes trimmed?
+GET http://localhost:4444/heroes/
+
+###
+GET http://localhost:4444/heroes/?name=Won
+
+### W/O Slash?
+GET http://localhost:4444/heroes?name=Won
+
+###
+GET http://localhost:4444/heroes/?name=Won%
+
+###
+GET http://localhost:4444/heroes/?name=Spider
